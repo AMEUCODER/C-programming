@@ -1,0 +1,37 @@
+Here is a dedicated **Phase 0** focused entirely on getting comfortable with C syntax, standard input/output, fundamental math operations, and simple control logic.
+
+---
+
+### Phase 0: Foundations & Basic Syntax
+
+*Focus: Master basic statement structures, variable declarations, `printf`/`scanf`, simple arithmetic, and basic `if/else` logic.*
+
+1. **"Hello World" & Character Formatting**
+Print custom multi-line formatted text using `printf()` and experiment with escape sequences (`\n` for line breaks, `\t` for tabs, `\"` for quotes).
+
+2. **Personal Information Profile**
+Declare variables of different data types (`int`, `float`, `char`), assign values, and display them formatted in a clean profile output.
+
+3. **User Age & Birth Year Calculator**
+Prompt the user to input their age using `scanf("%d", &age)`, calculate their birth year, and print the calculated result.
+
+4. **Temperature Converter (Celsius to Fahrenheit)**
+Prompt the user for a temperature in Celsius and convert it to Fahrenheit using floating-point math: $F = (C \times 9/5) + 32$.
+
+5. **Rectangle Area & Perimeter**
+Read width and height integers from user input, calculate both the area (`width * height`) and perimeter (`2 * (width + height)`), and print the formatted answers.
+
+6. **Even or Odd Checker**
+Take a single integer from the user and use the modulus operator (`% 2`) with an `if/else` statement to print whether the number is even or odd.
+
+7. **Pass / Fail Grade Evaluator**
+Read a test mark (0 to 20 or 0 to 100), check if it meets the passing threshold using relational operators (`>=`), and print an appropriate pass or fail message.
+
+8. **Simple Multi-Number Sum & Average**
+Read 3 numbers from the console, compute their total sum and precise average (`float`), and print the results with fixed decimal precision (`%.2f`).
+
+9. **Time Splitter (Seconds to Hours, Minutes, Seconds)**
+Take a total count of seconds (e.g., `4700`) and use integer division (`/`) and modulus (`%`) to output the result formatted as `HH : MM : SS`.
+
+10. **Two-Number Min/Max Finder**
+Ask the user for two numbers, compare them using conditional statements (`if`, `else if`, `else`), and display which number is larger or if they are equal.

@@ -1,0 +1,25 @@
+# Compiled output
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Build folders
+obj/
+bin/
+build/
+
+# Code::Blocks / IDE files
+*.cbp
+*.layout
+*.depend
+*.workspace
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
